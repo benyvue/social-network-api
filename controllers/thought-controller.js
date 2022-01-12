@@ -127,7 +127,9 @@ const thoughtController = {
         })
         .catch(err => res.status(400).json(err));
     }
-};
+
+
+}
 
 // Exporting controller 
 module.exports = thoughtController;
